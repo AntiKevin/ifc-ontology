@@ -1,0 +1,68 @@
+@prefix ifc: <http://example.org/ifc/> .
+
+ifc:0OfZwWc8j9QP5uX8xPTxDH a ifc:IfcWall ;
+    ifc:name "house - outer wall - house left" .
+
+ifc:0ZTBBPo6f6bxqV2K7Oelrq a ifc:IfcSlab ;
+    ifc:name "house - roof - slab left" .
+
+<http://example.org/ifc/0bo7_K6az7AA$4RxkSNVNM> a ifc:IfcBuildingElementProxy ;
+    ifc:name "Group#19" .
+
+<http://example.org/ifc/0c$N1CTon2BB2Sp89385G8> a ifc:IfcBuilding ;
+    ifc:name "Single-family house" .
+
+<http://example.org/ifc/0xY$LvXaDEswJDk_VU74C_> a ifc:IfcSpace ;
+    ifc:name "living room" .
+
+ifc:12UVOn4wvAJPMUExKdZLb8 a ifc:IfcSlab ;
+    ifc:name "house - roof - slab right" .
+
+ifc:18QhMtUIXBvQktPHXXxs7H a ifc:IfcSpace ;
+    ifc:name "entry hall" .
+
+ifc:1AQAupaRP1txwK1AGiN61V a ifc:IfcWall ;
+    ifc:name "house - outer wall - house right front" .
+
+ifc:1Ano2ZUxnEIvVQ_beukl8b a ifc:IfcBuildingStorey ;
+    ifc:name "00 groundfloor" .
+
+ifc:1Pbuu0tu59NfhrTsztVBK1 a ifc:IfcSite ;
+    ifc:name "house - site" .
+
+ifc:1uS5vfZPn9R8PlAaVd73on a ifc:IfcWall ;
+    ifc:name "plumbing wall" .
+
+ifc:1wADrO19H3w980h1wUyXLk a ifc:IfcBuildingElementProxy ;
+    ifc:name "Group#18" .
+
+ifc:1yP7NInQz5uQzbiOpVFFJr a ifc:IfcSpatialZone ;
+    ifc:name "house - gross volume" .
+
+ifc:23sFQGRy90RxVbRHD9iSE2 a ifc:IfcSite ;
+    ifc:name "environment - site" .
+
+<http://example.org/ifc/2F44QMqSH3TOkM$SZoqCBe> a ifc:IfcBuildingElementProxy ;
+    ifc:name "origin" .
+
+ifc:2e9pghUJbBqR4jTInsONQT a ifc:IfcFurniture ;
+    ifc:name "kitchen" .
+
+ifc:2iPwJwpPDCSgMheXwk9cBT a ifc:IfcRoof ;
+    ifc:name "house - roof" .
+
+ifc:3Fit2Fad92zf2f6aWdJtF5 a ifc:IfcBuildingElementProxy ;
+    ifc:name "geo-reference" .
+
+ifc:3_4VN63S96DfWiJjgG8j1C a ifc:IfcEarthworksFill ;
+    ifc:name "sand bedding" .
+
+ifc:3dkFAzOGrAIuOzY_RdrdVv a ifc:IfcChimney ;
+    ifc:name "house - chimney" .
+
+<http://example.org/ifc/3wdauVJT5Fx9drrREiDqA$> a ifc:IfcWall ;
+    ifc:name "house - outer wall - house right back" .
+
+ifc:3zR0BOEcLADRKln4HYporH a ifc:IfcSlab ;
+    ifc:name "floor" .
+

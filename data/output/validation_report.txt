@@ -1,0 +1,45 @@
+Validation Report
+Conforms: False
+Results (7):
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ifc:IfcSpatialStructureElement ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício)") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path prop:ContainedInStructure ]
+	Focus Node: <http://example.org/ifc/3wdauVJT5Fx9drrREiDqA$>
+	Result Path: prop:ContainedInStructure
+	Message: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício)
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ifc:IfcSpatialStructureElement ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício)") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path prop:ContainedInStructure ]
+	Focus Node: ifc:1AQAupaRP1txwK1AGiN61V
+	Result Path: prop:ContainedInStructure
+	Message: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício)
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ifc:IfcSpatialStructureElement ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício)") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path prop:ContainedInStructure ]
+	Focus Node: ifc:1uS5vfZPn9R8PlAaVd73on
+	Result Path: prop:ContainedInStructure
+	Message: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício)
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ifc:IfcSpatialStructureElement ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício)") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path prop:ContainedInStructure ]
+	Focus Node: ifc:0OfZwWc8j9QP5uX8xPTxDH
+	Result Path: prop:ContainedInStructure
+	Message: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício)
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ifc:IfcBuilding ; sh:message Literal("Pisos devem estar contidos em edificações") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path prop:ContainedInStructure ]
+	Focus Node: ifc:12UVOn4wvAJPMUExKdZLb8
+	Result Path: prop:ContainedInStructure
+	Message: Pisos devem estar contidos em edificações
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ifc:IfcBuilding ; sh:message Literal("Pisos devem estar contidos em edificações") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path prop:ContainedInStructure ]
+	Focus Node: ifc:3zR0BOEcLADRKln4HYporH
+	Result Path: prop:ContainedInStructure
+	Message: Pisos devem estar contidos em edificações
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ifc:IfcBuilding ; sh:message Literal("Pisos devem estar contidos em edificações") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path prop:ContainedInStructure ]
+	Focus Node: ifc:0ZTBBPo6f6bxqV2K7Oelrq
+	Result Path: prop:ContainedInStructure
+	Message: Pisos devem estar contidos em edificações
