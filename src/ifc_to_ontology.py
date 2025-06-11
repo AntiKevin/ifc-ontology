@@ -4,6 +4,7 @@ import re
 from rdflib.namespace import SH
 from pyshacl import validate
 from py2neo import Graph as Neo4jGraph, Node, Relationship
+from ollama import chat, ChatResponse
 
 IFC_FILE = "./data/Building-Architecture.ifc"
 model = ifcopenshell.open(IFC_FILE)
@@ -182,9 +183,41 @@ else:
         print(f"Mensagem: {conflict['message']}")
         print(f"Propriedade: {conflict['path']}")
         print(f"Severidade: {conflict['severity']}")
+        
+        # ===========================================
+        # Sugestão de correção usando LLM
+        # ===========================================
+        
+        prompt = f"""
+        personalidade: Você é um especialista em validação de modelos IFC (Industry Foundation Classes) e ontologias que responde de forma bem bem curta mas precisa (menos de 4 linhas sempre).
+        tarefa: Fornecer sugestões de correção para conflitos encontrados em um modelo IFC.
+        Problema: {conflict['message']} 
+        Elemento: {conflict['element']}
+        Propriedade: {conflict['path']}
+        Tarefa: Sugira uma correção técnica para este problema.
+        """
+        
+        response: ChatResponse = chat(model='gemma3:4b', messages=[
+        {
+            'role': 'user',
+            'content': prompt,
+        },
+        ])
+        
+        correction_suggestion = response.message.content
+        if not correction_suggestion:
+            correction_suggestion = "Nenhuma sugestão de correção disponível."
+                
+        
+        print(f"Sugestão de Correção: {correction_suggestion}")
+        conflict["sugestion"] = correction_suggestion
+    
+    conflicts_text = "\n".join(
+        [f"Conflito #{i+1}: {conflict['message']} \n Sugestão: {conflict['sugestion']} \n Elemento: {conflict['element']} \n" for i, conflict in enumerate(conflicts)]
+    )
 
 rdf_graph.serialize("./data/output/ifc_graph.ttl", format="turtle")
 with open("./data/output/validation_report.txt", "w") as f:
-    f.write(results_text)
+    f.write(conflicts_text)
 
 print("\nValidação concluída. Relatório salvo em 'validation_report.txt'")
