@@ -211,9 +211,12 @@ else:
         
         print(f"Sugestão de Correção: {correction_suggestion}")
         conflict["sugestion"] = correction_suggestion
+        
+        sugestion_without_newlines = re.sub(r'\n+', ' ', correction_suggestion)
+        segestion_without_newlines = re.sub(r'Sugestão:', '', sugestion_without_newlines)
     
     conflicts_text = "\n".join(
-        [f"Conflito #{i+1}: {conflict['message']} \n Sugestão: {conflict['sugestion']} \n Elemento: {conflict['element']} \n" for i, conflict in enumerate(conflicts)]
+        [f"Conflito #{i+1}: {conflict['message']} \n Sugestão: {sugestion_without_newlines} \n Elemento: {conflict['element']} \n" for i, conflict in enumerate(conflicts)]
     )
 
 rdf_graph.serialize("./data/output/ifc_graph.ttl", format="turtle")

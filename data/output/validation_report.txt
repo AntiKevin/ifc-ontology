@@ -1,46 +1,27 @@
-Conflito #1: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício) 
- Sugestão: Remova a atribuição da propriedade `ContainedInStructure` de elementos de parede que estão já atribuídos a múltiplas estruturas espaciais.
-Considere criar novas estruturas espaciais para cada parede, se necessário.
-Priorize a consistência da hierarquia espacial do modelo. 
- Elemento: http://example.org/ifc/1uS5vfZPn9R8PlAaVd73on 
+Conflito #1: Pisos devem estar contidos em edificações 
+ Sugestão: Remova ou defina corretamente a propriedade "ContainedInStructure" no elemento IFC.   Verifique se o elemento está associado a apenas um andar/edifício. Priorize a unicidade da relação espacial.  
+ Elemento: http://example.org/ifc/0ZTBBPo6f6bxqV2K7Oelrq 
 
-Conflito #2: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício) 
- Sugestão: Remova ou defina corretamente a propriedade `ContainedInStructure` para o elemento especificado. 
-
-Verifique se o elemento está associado a múltiplos andares/edifícios. 
-
-Priorize a definição de uma única relação de contenção. 
- Elemento: http://example.org/ifc/3wdauVJT5Fx9drrREiDqA$ 
-
-Conflito #3: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício) 
- Sugestão: Remova a propriedade `ContainedInStructure` do elemento. 
-
-Verifique se o elemento está associado a múltiplas estruturas espaciais.
-
-Considere a necessidade de excluir uma das associações.
- 
- Elemento: http://example.org/ifc/1AQAupaRP1txwK1AGiN61V 
-
-Conflito #4: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício) 
- Sugestão: Remova ou altere o valor da propriedade `ContainedInStructure` no elemento especificado. Garanta que ele aponta para apenas uma entidade de andar/edifício.
- 
- Elemento: http://example.org/ifc/0OfZwWc8j9QP5uX8xPTxDH 
-
-Conflito #5: Pisos devem estar contidos em edificações 
- Sugestão: Sugestão: Adicione a propriedade `ContainedInStructure` ao elemento IFC (http://example.org/ifc/12UVOn4wvAJPMUExKdZLb8) e defina a edificação como a estrutura contida.
- 
- Elemento: http://example.org/ifc/12UVOn4wvAJPMUExKdZLb8 
-
-Conflito #6: Pisos devem estar contidos em edificações 
- Sugestão: Sugestão: Adicione a propriedade `ContainedInStructure` ao piso (elemento especificado) para indicar que ele faz parte da edificação. Isso estabelece a relação hierárquica correta.
- 
+Conflito #2: Pisos devem estar contidos em edificações 
+ Sugestão: Remova ou defina corretamente a propriedade "ContainedInStructure" no elemento IFC.   Verifique se o elemento está associado a apenas um andar/edifício. Priorize a unicidade da relação espacial.  
  Elemento: http://example.org/ifc/3zR0BOEcLADRKln4HYporH 
 
-Conflito #7: Pisos devem estar contidos em edificações 
- Sugestão: Corrija a relação "ContainedInStructure" do piso para apontar para a edificação à qual ele pertence. 
+Conflito #3: Pisos devem estar contidos em edificações 
+ Sugestão: Remova ou defina corretamente a propriedade "ContainedInStructure" no elemento IFC.   Verifique se o elemento está associado a apenas um andar/edifício. Priorize a unicidade da relação espacial.  
+ Elemento: http://example.org/ifc/12UVOn4wvAJPMUExKdZLb8 
 
-Verifique se a edificação está corretamente definida e relacionada. 
+Conflito #4: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício) 
+ Sugestão: Remova ou defina corretamente a propriedade "ContainedInStructure" no elemento IFC.   Verifique se o elemento está associado a apenas um andar/edifício. Priorize a unicidade da relação espacial.  
+ Elemento: http://example.org/ifc/0OfZwWc8j9QP5uX8xPTxDH 
 
-Reclassifique o elemento, se necessário, para garantir a consistência do modelo.
- 
- Elemento: http://example.org/ifc/0ZTBBPo6f6bxqV2K7Oelrq 
+Conflito #5: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício) 
+ Sugestão: Remova ou defina corretamente a propriedade "ContainedInStructure" no elemento IFC.   Verifique se o elemento está associado a apenas um andar/edifício. Priorize a unicidade da relação espacial.  
+ Elemento: http://example.org/ifc/1uS5vfZPn9R8PlAaVd73on 
+
+Conflito #6: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício) 
+ Sugestão: Remova ou defina corretamente a propriedade "ContainedInStructure" no elemento IFC.   Verifique se o elemento está associado a apenas um andar/edifício. Priorize a unicidade da relação espacial.  
+ Elemento: http://example.org/ifc/1AQAupaRP1txwK1AGiN61V 
+
+Conflito #7: Paredes devem estar contidas em exatamente uma estrutura espacial (andar/edifício) 
+ Sugestão: Remova ou defina corretamente a propriedade "ContainedInStructure" no elemento IFC.   Verifique se o elemento está associado a apenas um andar/edifício. Priorize a unicidade da relação espacial.  
+ Elemento: http://example.org/ifc/3wdauVJT5Fx9drrREiDqA$ 
