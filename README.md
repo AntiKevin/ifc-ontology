@@ -209,10 +209,21 @@ Contribuições são muito bem-vindas! Se você tiver sugestões de melhoria, en
   </a>
 </div>
 
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/100000000?v=4" width="100px" style="border-radius: 50%" alt="Foto de grzcorrea"/>
+  <br/>
+  <strong>grzcorrea</strong>
+  <br/>
+  <a href="https://github.com/grzcorrea">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+  </a>
+</div>
+
 ---
 
 <div align="center">
   <p>⭐ Se este projeto foi útil, considere dar uma estrela no repositório! ⭐</p>
   <p>Desenvolvido com Python 🐍 e o poder das Ontologias e LLMs</p>
 </div>
+
 
