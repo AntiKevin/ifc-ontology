@@ -148,9 +148,6 @@ Certifique-se de que os seguintes softwares estão instalados em seu sistema:
 
     Abra os notebooks `ifc_conflict_detection.ipynb` e `ifc_to_graph.ipynb` localizados na pasta `notebooks` para visualizar e interagir com os resultados.
 
-
-
-
 ## 📁 Estrutura do Projeto
 
 A organização do repositório segue uma estrutura clara para facilitar a navegação e o entendimento do projeto:
@@ -173,9 +170,6 @@ ifc-ontology/
 └── requirements.txt                 # Lista de dependências Python do projeto
 ```
 
-
-
-
 ## 🤝 Contribuição
 
 Contribuições são muito bem-vindas! Se você tiver sugestões de melhoria, encontrar algum bug ou quiser adicionar novas funcionalidades, sinta-se à vontade para:
@@ -183,11 +177,7 @@ Contribuições são muito bem-vindas! Se você tiver sugestões de melhoria, en
 - Abrir uma *issue* para relatar problemas ou propor ideias.
 - Enviar um *pull request* com suas alterações. Certifique-se de descrever claramente as modificações e o problema que elas resolvem.
 
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT. Isso significa que você pode usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software livremente, desde que o aviso de copyright e esta permissão sejam incluídos em todas as cópias ou partes substanciais do software.
-
-## 👨‍💻 Autor
+## 👨‍💻 Colaboradores
 
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/7960296?v=4" width="100px" style="border-radius: 50%" alt="Foto de AntiKevin"/>
@@ -195,6 +185,26 @@ Este projeto está licenciado sob a licença MIT. Isso significa que você pode 
   <strong>AntiKevin</strong>
   <br/>
   <a href="https://github.com/AntiKevin">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/149385663?v=4" width="100px" style="border-radius: 50%" alt="Foto de xthgo19"/>
+  <br/>
+  <strong>xthgo19</strong>
+  <br/>
+  <a href="https://github.com/xthgo19">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/100000000?v=4" width="100px" style="border-radius: 50%" alt="Foto de IsaqueCostaa"/>
+  <br/>
+  <strong>IsaqueCostaa</strong>
+  <br/>
+  <a href="https://github.com/IsaqueCostaa">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
   </a>
 </div>
